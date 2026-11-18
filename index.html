@@ -68,7 +68,17 @@ function geoKeys(s){
  return out;
 }
 function byName(name){
- const wanted=geoKeys(name);const candidates=budget.filter(r=>[...geoKeys(r.name)].some(k=>wanted.has(k)));
+ // Приоритет точного совпадения: «Алтайский край» не должен конфликтовать с Республикой Алтай.
+ const exact=budget.filter(r=>String(r.name).trim().toLowerCase()===String(name).trim().toLowerCase());
+ if(exact.length===1)return exact[0];
+ const fixed={'чувашия':'Чувашская Республика','алтай':'Республика Алтай'};
+ const target=fixed[String(name).toLowerCase().trim()];
+ if(target){const row=budget.find(r=>r.name===target);if(row)return row}
+ const canonical=geoCanonical(name);
+ const same=budget.filter(r=>geoCanonical(r.name)===canonical);
+ if(same.length===1)return same[0];
+ const wanted=geoKeys(name);
+ const candidates=budget.filter(r=>[...geoKeys(r.name)].some(k=>wanted.has(k)));
  return candidates.length===1?candidates[0]:null;
 }
 function geoDiagnostics(){
