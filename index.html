@@ -16,9 +16,9 @@
 <main class="main"><h1>Геоаналитический конструктор</h1><p class="subtitle">Единая карта · каталог показателей · загрузка новых данных · профили территорий</p><div class="toolbar"><span class="tag" id="metricTitle">Доходы бюджета</span><span class="tag" id="coverage">Проверка географии...</span><button class="outline" id="geoDiagnostic" type="button" title="Скачать отчёт о сопоставлении">Проверить географию</button><button class="secondary" id="reset">Сбросить выбор</button><button class="outline" id="exportCSV">Экспорт CSV</button></div><div class="kpis"><div class="card"><div class="klabel">Сумма по выбранным территориям</div><div class="kval" id="sum">—</div><div class="kfoot" id="sumNote">Без двойного счёта проверяйте состав территорий</div></div><div class="card"><div class="klabel">Территорий со значением</div><div class="kval" id="count">—</div><div class="kfoot">Из загруженного набора</div></div><div class="card"><div class="klabel">Медианное значение</div><div class="kval" id="median">—</div><div class="kfoot" id="unitNote">Единица измерения</div></div></div><div class="card mapbox"><div class="maphead"><div><h2>Картограмма субъектов РФ</h2><small>Наведите на регион для значения; нажмите для просмотра профиля</small></div><button class="outline" id="zoomReset">Сброс масштаба</button></div><div id="map" class="map"></div><div id="mapStatus" class="mapfallback"></div><div class="legend" id="legend"></div></div><div class="below"><div class="card"><h3>Рейтинг территорий</h3><div class="ranking" id="ranking"></div></div><div class="card"><h3>Профиль выбранной территории</h3><div class="profile" id="profile">Нажмите на регион на карте или выберите его в каталоге слева.</div></div></div><div class="footer">Источник бюджетных данных: Федеральное казначейство, 2025. Границы карты загружаются из открытого GeoJSON. Неподтверждённые совпадения названий не окрашиваются. Состав территорий в бюджетной отчётности и картографическом наборе может различаться.</div></main>
 <aside class="right"><div class="section-title">Аналитика и данные</div><div class="right-tabs"><button id="tabAnalytics" class="active" type="button">Аналитика</button><button id="tabData" type="button">Загрузка данных</button></div><div id="proView" class="pro-hidden">
 <div class="panel"><h3>PRO · Мониторинг и риски</h3>
-<div class="pro-note">Демонстрационный профессиональный контур. Данные за январь–сентябрь 2026 года включены из формы 0503317. Остатки государственного долга не включены. Это не действующая подписка и не защищённый доступ.</div>
+<div class="pro-note">Демонстрационный профессиональный контур. Данные за январь–сентябрь 2026 года включены из формы 0503317. Долг субъектов РФ на 01.10.2026 включён из таблицы Минфина; для 2025 года долговая статистика не загружена. Это не действующая подписка и не защищённый доступ.</div>
 <label for="proYear">Отчётный период</label><select id="proYear"><option value="2026">2026 · на 01.10.2026 (9 месяцев)</option><option value="2025">2025 · на 01.01.2026 (12 месяцев)</option></select><label for="proRegion">Территория</label><select id="proRegion"></select>
-<div class="pro-grid" id="riskGrid"></div><div id="riskText" class="hint" style="margin-top:10px"></div>
+<div class="pro-grid" id="riskGrid"></div><button class="outline full" id="debtMap" type="button">Карта коммерческого долга / собственные доходы</button><div id="riskText" class="hint" style="margin-top:10px"></div><div id="debtDynamics" class="hint" style="margin-top:12px"></div>
 <button id="proToMap" class="secondary full">Показать территорию на карте</button></div>
 <div class="panel"><h3>2026 · оперативный мониторинг</h3><p>Фактическое исполнение консолидированных бюджетов за январь–сентябрь 2026 года. Переключайте период выше — карта и финансовые индикаторы обновляются.</p><div class="status warn">2025 — 12 месяцев, 2026 — 9 месяцев. Прямое сравнение сумм не является сопоставлением одинаковых периодов. Долговой скоринг не рассчитывается без остатков и структуры долга.</div></div>
 <div class="panel"><h3>ИИ-аналитик · демонстрация</h3>
@@ -149,11 +149,16 @@ $('upload').onchange=async e=>{let f=e.target.files?.[0];if(!f)return;try{let ex
 $('template').onclick=()=>download('ATRE_import_template.csv','\ufeffРегион;Год;Показатель;Значение\r\nг. Москва;2025;Демонстрационный показатель;100\r\nМосковская область;2025;Демонстрационный показатель;80\r\nРеспублика Татарстан;2025;Демонстрационный показатель;60','text/csv;charset=utf-8');
 $('exportAdded').onclick=()=>download('imported-data.json',JSON.stringify({schema:'atre-geoeconomics-import-v1',metrics:catalog.filter(c=>c.group==='Загруженные данные'),values:extra},null,2),'application/json');$('clearAdded').onclick=()=>{extra=[];catalog=catalog.filter(c=>c.group!=='Загруженные данные');active='revenue';$('addedCount').textContent='Дополнительных показателей: 0';refreshYears();drawCatalog();render()};$('exportCSV').onclick=()=>{let m=getMetric(active),rows=rowsForMetric();let s='\ufeffРегион;Год;Показатель;Значение;Единица\r\n'+rows.map(r=>[r.name,$('year').value,m.name,r.value,m.unit].map(x=>'"'+String(x).replaceAll('"','""')+'"').join(';')).join('\r\n');download('ATRE_map_export.csv',s,'text/csv;charset=utf-8')};
 // V4: демонстрационный PRO-контур без авторизации и без недоступных данных.
-let v4Pro=false,agentReport='',budget2026=[];
+let v4Pro=false,agentReport='',budget2026=[],debt2026=[],debtStart2026=[];
 function currentProYear(){return $('proYear').value}
 function currentProData(){return currentProYear()==='2026'?budget2026:budget}
 function proMapYear(){if(!v4Pro)return;refreshYears();$('year').value=currentProYear();render()}
 function proRegion(){const d=currentProData();return d.find(r=>r.id===$('proRegion').value)||d.find(r=>r.id===selected)||d[0]}
+function debtFor(r){return currentProYear()==='2026'?debt2026.find(x=>x.id===r.id):null}
+function startDebtFor(r){return debtStart2026.find(x=>x.id===r.id)}
+function debtChange(r){const a=startDebtFor(r),b=debtFor(r);return a&&b?b.commercialDebt-a.commercialDebt:null}
+function debtRatio(r,d){return d&&r.tax>0?100*d.commercialDebt/r.tax:null}
+function debtNote(r,d){if(currentProYear()!=='2026')return 'Данные о долге на 2025 год не загружены.';if(!d)return 'Для территории нет строки государственного долга субъекта РФ в источнике Минфина.';const ratio=debtRatio(r,d);return 'Коммерческий долг: '+fmt(d.commercialDebt,3)+' млрд ₽ (банковские кредиты '+fmt(d.bankLoans,3)+'; облигации '+fmt(d.bonds,3)+'). Доля в собственных доходах за 9 месяцев 2026 года: '+(ratio===null?'не рассчитывается':fmt(ratio,2)+'%')+'. Показатель промежуточный: остаток на дату сопоставляется с доходами за 9 месяцев. Не является нормативной оценкой риска.'}
 function percent(n){return Number.isFinite(n)?fmt(n)+'%':'нет данных'}
 function riskStats(r){
  const transfer=r.revenue>0?100*r.transfers/r.revenue:null;
@@ -171,10 +176,17 @@ function proRender(){
  ['Дефицит / доходы',percent(s.deficit)],
  ['Доля трансфертов',percent(s.transfer)],
  ['Социальные расходы / расходы',percent(s.social)],
- ['Остаток госдолга','нет данных'],
- ['Коммерческий долг','нет данных']
+ ['Государственный долг',debtFor(r)?fmt(debtFor(r).totalDebt,2)+' млрд ₽':'нет данных'],
+ ['Коммерческий долг',debtFor(r)?fmt(debtFor(r).commercialDebt,3)+' млрд ₽':'нет данных'],
+ ['Банковские кредиты',debtFor(r)?fmt(debtFor(r).bankLoans,3)+' млрд ₽':'нет данных'],
+ ['Облигации',debtFor(r)?fmt(debtFor(r).bonds,3)+' млрд ₽':'нет данных'],
+ ['Коммерческий долг / собств. доходы',percent(debtRatio(r,debtFor(r)))]
  ].map(([k,v])=>'<div class="cell">'+escapeHtml(k)+'<strong>'+escapeHtml(v)+'</strong></div>').join('');
- $('riskText').textContent='Индикаторы являются описательными, а не рейтингом кредитоспособности. Для комплексной оценки риска требуются долговые остатки, структура и сроки погашения долга, динамика и методология порогов.';
+ $('riskText').textContent=debtNote(r,debtFor(r));
+ const old=startDebtFor(r),now=debtFor(r),delta=debtChange(r);
+ $('debtDynamics').textContent=currentProYear()==='2026'&&old&&now?
+ 'Динамика 01.01–01.10.2026: коммерческий долг '+fmt(old.commercialDebt,3)+' → '+fmt(now.commercialDebt,3)+' млрд ₽; изменение '+(delta>0?'+':'')+fmt(delta,3)+' млрд ₽. Банковские кредиты: '+fmt(old.bankLoans,3)+' → '+fmt(now.bankLoans,3)+' млрд ₽; облигации: '+fmt(old.bonds,3)+' → '+fmt(now.bonds,3)+' млрд ₽. Общий госдолг: '+fmt(old.totalDebt,3)+' → '+fmt(now.totalDebt,3)+' млрд ₽. Нулевое изменение не исключает внутрипериодных колебаний.':
+ currentProYear()==='2026'?'Для сопоставления долговых остатков на две даты нет данных.':'';
 }
 function setV4Mode(pro){
  v4Pro=pro;
@@ -196,8 +208,9 @@ function buildAgentReport(){
  '• Сальдо: '+fmt(r.balance)+' млрд ₽.\n'+
  '• Дефицит к доходам: '+percent(s.deficit)+'.\n'+
  '• Доля безвозмездных поступлений: '+percent(s.transfer)+'.\n'+
- '• Остаток и структура государственного долга: нет данных.\n\n'+
- 'Интерпретация: эти показатели помогают выделить факторы для дальнейшей проверки, но не позволяют присвоить региону уровень долгового риска.';
+ '• Государственный долг: '+(debtFor(r)?fmt(debtFor(r).totalDebt,3)+' млрд ₽':'нет данных')+'.\n'+
+ '• '+debtNote(r,debtFor(r))+'\n• Динамика коммерческого долга 01.01–01.10.2026: '+(debtChange(r)===null?'нет сопоставимых данных':(debtChange(r)>0?'+':'')+fmt(debtChange(r),3)+' млрд ₽')+'.\n\n'+
+ 'Интерпретация: при прочих равных более высокая доля рыночного долга в собственных доходах повышает чувствительность к стоимости заимствований и рефинансированию. Для оценки риска нужны сроки погашения, процентные ставки и сопоставимые годовые доходы.';
  else if(q==='structure'){
  const parts=Object.entries(r.sectors||{}).filter(([,v])=>Number.isFinite(v)).sort((a,b)=>b[1]-a[1]).slice(0,5);
  body='Структура бюджета:\n• Налоговые и неналоговые доходы: '+fmt(r.tax)+' млрд ₽.\n'+
@@ -226,13 +239,14 @@ $('proYear').onchange=()=>{proRender();proMapYear();$('agentAnswer').textContent
 $('proRegion').onchange=()=>{proRender();$('agentAnswer').textContent='';$('agentSteps').innerHTML='';$('exportAgent').disabled=true};
 $('proToMap').onclick=()=>{const r=proRegion();if(r)choose(r.id)};
 $('runAgent').onclick=runV4Agent;
+$('debtMap').onclick=()=>{if(!debt2026.length){alert('Нет данных о долге');return}if(!v4Pro)setV4Mode(true);$('proYear').value='2026';refreshYears();$('year').value='2026';active='commercial_debt_ratio';drawCatalog();render();proRender()};
 $('exportAgent').onclick=()=>download('ATRE_analytics_'+currentProYear()+'.txt',agentReport,'text/plain;charset=utf-8');
 const oldDrawAnalytics=drawAnalytics;
 drawAnalytics=function(){oldDrawAnalytics();if(v4Pro&&budget.length){if(selected)$('proRegion').value=selected;proRender()}};
 const oldMetricValue=metricValue;
 metricValue=function(row,id,year){if(String(year)==='2026'&&v4Pro){const r=budget2026.find(x=>x.id===row.id);if(!r)return null;if(id==='transfer_share')return r.revenue?100*r.transfers/r.revenue:null;if(id==='deficit')return Math.max(0,-r.balance);if(id.startsWith('sector_')){const name=baseMetrics.find(x=>x.id===id)?.name;return name&&Number.isFinite(r.sectors?.[name])?r.sectors[name]:null}return Number.isFinite(r[id])?r[id]:null}return oldMetricValue(row,id,year)};
 const oldInit=init;
-init=async function(){await oldInit();const sectorMetricValue=metricValue;metricValue=function(row,id,year){if(String(year)==='2026'&&v4Pro){const r=budget2026.find(x=>x.id===row.id);if(!r)return null;if(id==='transfer_share')return r.revenue?100*r.transfers/r.revenue:null;if(id==='deficit')return Math.max(0,-r.balance);if(id.startsWith('sector_')){const name=baseMetrics.find(x=>x.id===id)?.name;return name&&Number.isFinite(r.sectors?.[name])?r.sectors[name]:null}return Number.isFinite(r[id])?r[id]:null}return sectorMetricValue(row,id,year)};try{const response=await fetch('./data-2026.json');if(!response.ok)throw Error('HTTP '+response.status);budget2026=await response.json();if(!Array.isArray(budget2026)||!budget2026.length)throw Error('Пустой набор');}catch(err){console.warn('2026 dataset:',err);$('modePro').title='Не удалось загрузить данные за 2026 год';$('proYear').value='2025';$('proYear').querySelector('option[value=2026]').disabled=true;}if(budget.length){$('proRegion').innerHTML=budget.map(r=>'<option value="'+escapeHtml(r.id)+'">'+escapeHtml(r.name)+'</option>').join('');$('proRegion').value=selected||budget[0].id;proRender()}};
+init=async function(){await oldInit();const sectorMetricValue=metricValue;metricValue=function(row,id,year){if(String(year)==='2026'&&v4Pro){const r=budget2026.find(x=>x.id===row.id);if(!r)return null;if(id==='transfer_share')return r.revenue?100*r.transfers/r.revenue:null;if(id==='deficit')return Math.max(0,-r.balance);if(id.startsWith('sector_')){const name=baseMetrics.find(x=>x.id===id)?.name;return name&&Number.isFinite(r.sectors?.[name])?r.sectors[name]:null}return Number.isFinite(r[id])?r[id]:null}return sectorMetricValue(row,id,year)};try{const response=await fetch('./data-2026.json');if(!response.ok)throw Error('HTTP '+response.status);budget2026=await response.json();if(!Array.isArray(budget2026)||!budget2026.length)throw Error('Пустой набор');}catch(err){console.warn('2026 dataset:',err);$('modePro').title='Не удалось загрузить данные за 2026 год';$('proYear').value='2025';$('proYear').querySelector('option[value=2026]').disabled=true;}try{const rr=await fetch('./debt-2026-01.json');if(!rr.ok)throw Error('HTTP '+rr.status);const dd=await rr.json();debtStart2026=Array.isArray(dd.regions)?dd.regions:[]}catch(e){console.warn('Debt start-of-year data:',e)};try{const dr=await fetch('./debt-2026.json');if(!dr.ok)throw Error('HTTP '+dr.status);const debt=await dr.json();debt2026=Array.isArray(debt.regions)?debt.regions:[];if(debt2026.length){catalog.push({id:'commercial_debt_ratio',name:'Коммерческий долг / собственные доходы (9 мес.)',group:'Долговая устойчивость',unit:'%',source:'Минфин России + ФК, 01.10.2026'});catalog.push({id:'commercial_debt',name:'Коммерческий долг, млрд ₽',group:'Долговая устойчивость',unit:'млрд ₽',source:'Минфин России, 01.10.2026'});drawCatalog()}}catch(e){console.warn('Debt data:',e)};const prevMetric=metricValue;metricValue=function(row,id,year){if(id==='commercial_debt_ratio'||id==='commercial_debt'){if(String(year)!=='2026')return null;const d=debt2026.find(x=>x.id===row.id),r=budget2026.find(x=>x.id===row.id);return d?(id==='commercial_debt'?d.commercialDebt:debtRatio(r||row,d)):null}return prevMetric(row,id,year)};if(budget.length){$('proRegion').innerHTML=budget.map(r=>'<option value="'+escapeHtml(r.id)+'">'+escapeHtml(r.name)+'</option>').join('');$('proRegion').value=selected||budget[0].id;proRender()}};
 
 window.addEventListener('resize',()=>{mapChart?.resize();incomeChart?.resize();expenseChart?.resize()});init();
 </script></body></html>
