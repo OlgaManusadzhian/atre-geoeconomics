@@ -1,7 +1,7 @@
 {
   "date": "2026-01-01",
   "unit": "млрд ₽",
-  "source": "Минфин России, объем и структура государственного долга субъектов РФ на 1 января 2026 г., файл от 20.04.2026",
+  "source": "Минфин России; государственный долг субъектов РФ и муниципальный долг; облигации и банковские кредиты выделены отдельно",
   "regions": [
     {
       "id": "26",
@@ -12,7 +12,16 @@
       "budgetLoans": 19.843128,
       "guarantees": 0.445048,
       "otherDebt": 0.0,
-      "totalDebt": 39.288182
+      "totalDebt": 39.288182,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.91,
+      "municipalBudgetLoans": 2.401333333,
+      "municipalGuarantees": 0.32033929730000005,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 6.631672630300001,
+      "municipalCommercialDebt": 3.91,
+      "combinedCommercialDebt": 22.910005,
+      "combinedDebt": 45.9198546303
     },
     {
       "id": "27",
@@ -23,7 +32,16 @@
       "budgetLoans": 7.601864,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 7.601864
+      "totalDebt": 7.601864,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.934139915,
+      "municipalBudgetLoans": 1.0043151833500001,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.93845509835,
+      "municipalCommercialDebt": 1.934139915,
+      "combinedCommercialDebt": 1.934139915,
+      "combinedDebt": 10.54031909835
     },
     {
       "id": "28",
@@ -34,7 +52,16 @@
       "budgetLoans": 15.202038,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 15.202038
+      "totalDebt": 15.202038,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 1.5107769177,
+      "municipalGuarantees": 0.0042504,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.5150273177,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 16.7170653177
     },
     {
       "id": "31",
@@ -45,7 +72,16 @@
       "budgetLoans": 25.964964,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 25.964964
+      "totalDebt": 25.964964,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.07727886309,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.07727886309,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 26.04224286309
     },
     {
       "id": "33",
@@ -56,7 +92,16 @@
       "budgetLoans": 8.454243,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 8.454243
+      "totalDebt": 8.454243,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 1.7518723900799997,
+      "municipalGuarantees": 0.02486626394,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.77673865402,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 10.23098165402
     },
     {
       "id": "37",
@@ -67,7 +112,16 @@
       "budgetLoans": 28.865885,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 28.865885
+      "totalDebt": 28.865885,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 2.879460874,
+      "municipalGuarantees": 0.8,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.6794608739999997,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 32.545345874
     },
     {
       "id": "41",
@@ -78,7 +132,16 @@
       "budgetLoans": 22.61748,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 22.61748
+      "totalDebt": 22.61748,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 7.135627700000001,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 7.135627700000001,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 29.7531077
     },
     {
       "id": "44",
@@ -89,7 +152,16 @@
       "budgetLoans": 13.193554,
       "guarantees": 0.266393,
       "otherDebt": 0.0,
-      "totalDebt": 15.159948
+      "totalDebt": 15.159948,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 2.6850587999999997,
+      "municipalBudgetLoans": 0.6220129799999999,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.30707178,
+      "municipalCommercialDebt": 2.6850587999999997,
+      "combinedCommercialDebt": 4.3850587999999995,
+      "combinedDebt": 18.46701978
     },
     {
       "id": "46",
@@ -100,7 +172,16 @@
       "budgetLoans": 13.192649,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 13.192665
+      "totalDebt": 13.192665,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 2.27960000016,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.27960000016,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 1.6e-05,
+      "combinedDebt": 15.47226500016
     },
     {
       "id": "48",
@@ -111,7 +192,16 @@
       "budgetLoans": 146.887158,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 164.887161
+      "totalDebt": 164.887161,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 21.690476649999997,
+      "municipalBudgetLoans": 9.111912900250001,
+      "municipalGuarantees": 0.65857297627,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 31.46096252652,
+      "municipalCommercialDebt": 21.690476649999997,
+      "combinedCommercialDebt": 39.69047965,
+      "combinedDebt": 196.34812352652
     },
     {
       "id": "54",
@@ -122,7 +212,16 @@
       "budgetLoans": 18.609063,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 18.609063
+      "totalDebt": 18.609063,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.514245883,
+      "municipalBudgetLoans": 2.41411867376,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.92836455676,
+      "municipalCommercialDebt": 0.514245883,
+      "combinedCommercialDebt": 0.514245883,
+      "combinedDebt": 21.53742755676
     },
     {
       "id": "59",
@@ -133,7 +232,16 @@
       "budgetLoans": 24.885075,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 24.885075
+      "totalDebt": 24.885075,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.45206968879,
+      "municipalBudgetLoans": 0.712469741,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 4.16453942979,
+      "municipalCommercialDebt": 3.45206968879,
+      "combinedCommercialDebt": 3.45206968879,
+      "combinedDebt": 29.04961442979
     },
     {
       "id": "63",
@@ -144,7 +252,16 @@
       "budgetLoans": 16.192639,
       "guarantees": 1.593489,
       "otherDebt": 0.0,
-      "totalDebt": 17.786129
+      "totalDebt": 17.786129,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.2,
+      "municipalBudgetLoans": 0.32581100839,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.52581100839,
+      "municipalCommercialDebt": 0.2,
+      "combinedCommercialDebt": 0.2,
+      "combinedDebt": 18.31194000839
     },
     {
       "id": "64",
@@ -155,7 +272,16 @@
       "budgetLoans": 12.123125,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 12.123125
+      "totalDebt": 12.123125,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.9053631,
+      "municipalBudgetLoans": 2.3075053,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.2128684,
+      "municipalCommercialDebt": 0.9053631,
+      "combinedCommercialDebt": 0.9053631,
+      "combinedDebt": 15.3359934
     },
     {
       "id": "36",
@@ -166,7 +292,16 @@
       "budgetLoans": 12.679511,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 12.679511
+      "totalDebt": 12.679511,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 3.0128075576,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.0128075576,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 15.6923185576
     },
     {
       "id": "66",
@@ -177,7 +312,16 @@
       "budgetLoans": 21.400298,
       "guarantees": 0.917166,
       "otherDebt": 0.0,
-      "totalDebt": 37.767463
+      "totalDebt": 37.767463,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 6.2319,
+      "municipalBudgetLoans": 2.90410644555,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 9.136006445549999,
+      "municipalCommercialDebt": 6.2319,
+      "combinedCommercialDebt": 21.6819,
+      "combinedDebt": 46.90346944555
     },
     {
       "id": "71",
@@ -188,7 +332,16 @@
       "budgetLoans": 36.575058,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 64.569509
+      "totalDebt": 64.569509,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 6.315532034,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 6.315532034,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 27.994451,
+      "combinedDebt": 70.885041034
     },
     {
       "id": "73",
@@ -199,7 +352,16 @@
       "budgetLoans": 128.022635,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 208.455697
+      "totalDebt": 208.455697,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 80.433062,
+      "combinedDebt": 208.455697
     },
     {
       "id": "06",
@@ -210,7 +372,16 @@
       "budgetLoans": 16.083712,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 29.023717
+      "totalDebt": 29.023717,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.9413066499999998,
+      "municipalBudgetLoans": 1.54574751257,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.48705416257,
+      "municipalCommercialDebt": 1.9413066499999998,
+      "combinedCommercialDebt": 14.881311649999999,
+      "combinedDebt": 32.51077116257
     },
     {
       "id": "07",
@@ -221,7 +392,16 @@
       "budgetLoans": 23.74964,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 39.38464
+      "totalDebt": 39.38464,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.91473,
+      "municipalBudgetLoans": 0.751235,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 4.665965,
+      "municipalCommercialDebt": 3.91473,
+      "combinedCommercialDebt": 19.54973,
+      "combinedDebt": 44.050605
     },
     {
       "id": "24",
@@ -232,7 +412,16 @@
       "budgetLoans": 34.917866,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 111.467066
+      "totalDebt": 111.467066,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 5.39621569953,
+      "municipalBudgetLoans": 1.70543416948,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 7.10164986901,
+      "municipalCommercialDebt": 5.39621569953,
+      "combinedCommercialDebt": 81.94541569953,
+      "combinedDebt": 118.56871586901
     },
     {
       "id": "30",
@@ -243,7 +432,16 @@
       "budgetLoans": 18.960466,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 18.960466
+      "totalDebt": 18.960466,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.6,
+      "municipalBudgetLoans": 0.0221254,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.6221253999999998,
+      "municipalCommercialDebt": 1.6,
+      "combinedCommercialDebt": 1.6,
+      "combinedDebt": 20.5825914
     },
     {
       "id": "35",
@@ -254,7 +452,16 @@
       "budgetLoans": 16.939847,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 18.117482
+      "totalDebt": 18.117482,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.10017200033,
+      "municipalBudgetLoans": 1.898998233,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.9991702333299997,
+      "municipalCommercialDebt": 1.10017200033,
+      "combinedCommercialDebt": 2.27780700033,
+      "combinedDebt": 21.116652233329997
     },
     {
       "id": "45",
@@ -265,7 +472,16 @@
       "budgetLoans": 11.758556,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 11.758556
+      "totalDebt": 11.758556,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.05845,
+      "municipalGuarantees": 0.04761,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.10606,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 11.864616
     },
     {
       "id": "49",
@@ -276,7 +492,16 @@
       "budgetLoans": 18.592917,
       "guarantees": 1.6,
       "otherDebt": 0.0,
-      "totalDebt": 76.502917
+      "totalDebt": 76.502917,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 6.973252524129999,
+      "municipalBudgetLoans": 0.8153156501,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 7.788568174230001,
+      "municipalCommercialDebt": 6.973252524129999,
+      "combinedCommercialDebt": 63.28325252413,
+      "combinedDebt": 84.29148517422999
     },
     {
       "id": "50",
@@ -287,7 +512,16 @@
       "budgetLoans": 19.281344,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 22.290196
+      "totalDebt": 22.290196,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.175,
+      "municipalBudgetLoans": 3.1558994360000003,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.330899436,
+      "municipalCommercialDebt": 0.175,
+      "combinedCommercialDebt": 3.183852,
+      "combinedDebt": 25.621095436
     },
     {
       "id": "57",
@@ -298,7 +532,16 @@
       "budgetLoans": 15.235568,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 16.735568
+      "totalDebt": 16.735568,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.679353,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.679353,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 1.5,
+      "combinedDebt": 17.414921
     },
     {
       "id": "72",
@@ -309,7 +552,16 @@
       "budgetLoans": 49.938392,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 71.194492
+      "totalDebt": 71.194492,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 21.2561,
+      "combinedDebt": 71.194492
     },
     {
       "id": "84",
@@ -320,7 +572,16 @@
       "budgetLoans": 0.42625,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 0.42625
+      "totalDebt": 0.42625,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0647833,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0647833,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 0.4910333
     },
     {
       "id": "76",
@@ -331,7 +592,16 @@
       "budgetLoans": 4.171565,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 4.171565
+      "totalDebt": 4.171565,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.2,
+      "municipalBudgetLoans": 0.9261407832799999,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.12614078328,
+      "municipalCommercialDebt": 0.2,
+      "combinedCommercialDebt": 0.2,
+      "combinedDebt": 5.29770578328
     },
     {
       "id": "05",
@@ -342,7 +612,16 @@
       "budgetLoans": 5.878365,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 6.128365
+      "totalDebt": 6.128365,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.4424838,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.4424838,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.25,
+      "combinedDebt": 6.570848799999999
     },
     {
       "id": "75",
@@ -353,7 +632,16 @@
       "budgetLoans": 9.601097,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 9.601097
+      "totalDebt": 9.601097,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 9.601097
     },
     {
       "id": "18",
@@ -364,7 +652,16 @@
       "budgetLoans": 102.187091,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 106.187091
+      "totalDebt": 106.187091,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.0389725,
+      "municipalBudgetLoans": 4.144400575000001,
+      "municipalGuarantees": 0.023358120280000002,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 5.20673119528,
+      "municipalCommercialDebt": 1.0389725,
+      "combinedCommercialDebt": 5.0389725,
+      "combinedDebt": 111.39382219528
     },
     {
       "id": "25",
@@ -375,7 +672,16 @@
       "budgetLoans": 17.229299,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 17.229299
+      "totalDebt": 17.229299,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.45772160775000004,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.45772160775000004,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 17.68702060775
     },
     {
       "id": "29",
@@ -386,7 +692,16 @@
       "budgetLoans": 38.144388,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 57.444388
+      "totalDebt": 57.444388,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.50185666996,
+      "municipalBudgetLoans": 5.4143092,
+      "municipalGuarantees": 0.09064092687000001,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 9.00680679683,
+      "municipalCommercialDebt": 3.50185666996,
+      "combinedCommercialDebt": 22.80185666996,
+      "combinedDebt": 66.45119479683
     },
     {
       "id": "58",
@@ -397,7 +712,16 @@
       "budgetLoans": 40.807915,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 40.807915
+      "totalDebt": 40.807915,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.6158317999999996,
+      "municipalBudgetLoans": 2.25356947933,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 5.86940127933,
+      "municipalCommercialDebt": 3.6158317999999996,
+      "combinedCommercialDebt": 3.6158317999999996,
+      "combinedDebt": 46.67731627933
     },
     {
       "id": "74",
@@ -408,7 +732,16 @@
       "budgetLoans": 1.224681,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 1.224681
+      "totalDebt": 1.224681,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 1.224681
     },
     {
       "id": "03",
@@ -419,7 +752,16 @@
       "budgetLoans": 32.617834,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 32.617834
+      "totalDebt": 32.617834,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.83510122,
+      "municipalBudgetLoans": 2.40761936,
+      "municipalGuarantees": 0.0004513,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.24317188,
+      "municipalCommercialDebt": 0.83510122,
+      "combinedCommercialDebt": 0.83510122,
+      "combinedDebt": 35.86100588
     },
     {
       "id": "14",
@@ -430,7 +772,16 @@
       "budgetLoans": 2.278347,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 2.278347
+      "totalDebt": 2.278347,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 2.278347
     },
     {
       "id": "04",
@@ -441,7 +792,16 @@
       "budgetLoans": 5.213812,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 5.213812
+      "totalDebt": 5.213812,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.85,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.85,
+      "municipalCommercialDebt": 0.85,
+      "combinedCommercialDebt": 0.85,
+      "combinedDebt": 6.0638119999999995
     },
     {
       "id": "79",
@@ -452,7 +812,16 @@
       "budgetLoans": 2.757184,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 2.757184
+      "totalDebt": 2.757184,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.165,
+      "municipalBudgetLoans": 0.00021818218999999998,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.16521818218999998,
+      "municipalCommercialDebt": 0.165,
+      "combinedCommercialDebt": 0.165,
+      "combinedDebt": 2.92240218219
     },
     {
       "id": "10",
@@ -463,7 +832,16 @@
       "budgetLoans": 8.759795,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 11.859795
+      "totalDebt": 11.859795,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.9268779900099999,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.9268779900099999,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 3.1,
+      "combinedDebt": 12.78667299001
     },
     {
       "id": "94",
@@ -474,7 +852,16 @@
       "budgetLoans": 15.689542,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 15.689542
+      "totalDebt": 15.689542,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.02250912402,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.02250912402,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 15.71205112402
     },
     {
       "id": "21",
@@ -485,7 +872,16 @@
       "budgetLoans": 10.942892,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 12.692892
+      "totalDebt": 12.692892,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.78,
+      "municipalBudgetLoans": 0.3357352,
+      "municipalGuarantees": 0.00079051002,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.11652571002,
+      "municipalCommercialDebt": 1.78,
+      "combinedCommercialDebt": 3.5300000000000002,
+      "combinedDebt": 14.80941771002
     },
     {
       "id": "01",
@@ -496,7 +892,16 @@
       "budgetLoans": 32.006555,
       "guarantees": 8.028567,
       "otherDebt": 0.0,
-      "totalDebt": 68.875122
+      "totalDebt": 68.875122,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.25,
+      "municipalBudgetLoans": 7.6336358530799995,
+      "municipalGuarantees": 0.12598296175,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 9.009618814829999,
+      "municipalCommercialDebt": 1.25,
+      "combinedCommercialDebt": 30.09,
+      "combinedDebt": 77.88474081483
     },
     {
       "id": "08",
@@ -507,7 +912,16 @@
       "budgetLoans": 4.663701,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 4.663701
+      "totalDebt": 4.663701,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.29324371333,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.29324371333,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 4.9569447133299995
     },
     {
       "id": "09",
@@ -518,7 +932,16 @@
       "budgetLoans": 26.182356,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 26.182356
+      "totalDebt": 26.182356,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.3,
+      "municipalBudgetLoans": 5.276999291729999,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 6.57699929173,
+      "municipalCommercialDebt": 1.3,
+      "combinedCommercialDebt": 1.3,
+      "combinedDebt": 32.759355291729996
     },
     {
       "id": "11",
@@ -529,7 +952,16 @@
       "budgetLoans": 90.122361,
       "guarantees": 7.905783,
       "otherDebt": 0.0,
-      "totalDebt": 98.028144
+      "totalDebt": 98.028144,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 25.03194741908,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 25.03194741908,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 123.06009141908
     },
     {
       "id": "13",
@@ -540,7 +972,16 @@
       "budgetLoans": 52.152034,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 54.652034
+      "totalDebt": 54.652034,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 6.37110187213,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 6.37110187213,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 2.5,
+      "combinedDebt": 61.02313587213
     },
     {
       "id": "15",
@@ -551,7 +992,16 @@
       "budgetLoans": 7.831122,
       "guarantees": 3.742203,
       "otherDebt": 0.0,
-      "totalDebt": 11.573325
+      "totalDebt": 11.573325,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 1.476559865,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.476559865,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 13.049884865000001
     },
     {
       "id": "56",
@@ -562,7 +1012,16 @@
       "budgetLoans": 34.883879,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 34.883879
+      "totalDebt": 34.883879,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 3.0842560573,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.0842560573,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 37.9681350573
     },
     {
       "id": "40",
@@ -573,7 +1032,16 @@
       "budgetLoans": 24.260029,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 28.812029
+      "totalDebt": 28.812029,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 2.49957923,
+      "municipalBudgetLoans": 1.57188600269,
+      "municipalGuarantees": 0.006125,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 4.0775902326899995,
+      "municipalCommercialDebt": 2.49957923,
+      "combinedCommercialDebt": 7.05157923,
+      "combinedDebt": 32.889619232689995
     },
     {
       "id": "32",
@@ -584,7 +1052,16 @@
       "budgetLoans": 129.953258,
       "guarantees": 1.420504,
       "otherDebt": 0.0,
-      "totalDebt": 216.473762
+      "totalDebt": 216.473762,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 8.66148069248,
+      "municipalBudgetLoans": 11.224701041069999,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 19.88618173355,
+      "municipalCommercialDebt": 8.66148069248,
+      "combinedCommercialDebt": 93.76148069247999,
+      "combinedDebt": 236.35994373354998
     },
     {
       "id": "53",
@@ -595,7 +1072,16 @@
       "budgetLoans": 16.161911,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 29.651243
+      "totalDebt": 29.651243,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.077452,
+      "municipalBudgetLoans": 0.41347247499999995,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.49092447499999997,
+      "municipalCommercialDebt": 0.077452,
+      "combinedCommercialDebt": 13.566783999999998,
+      "combinedDebt": 30.142167475
     },
     {
       "id": "55",
@@ -606,7 +1092,16 @@
       "budgetLoans": 16.782873,
       "guarantees": 0.285181,
       "otherDebt": 0.0,
-      "totalDebt": 17.068054
+      "totalDebt": 17.068054,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.240355,
+      "municipalBudgetLoans": 1.78199654764,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 5.0223515476400005,
+      "municipalCommercialDebt": 3.240355,
+      "combinedCommercialDebt": 3.240355,
+      "combinedDebt": 22.09040554764
     },
     {
       "id": "42",
@@ -617,7 +1112,16 @@
       "budgetLoans": 44.396658,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 68.096658
+      "totalDebt": 68.096658,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 7.942,
+      "municipalBudgetLoans": 7.511349174999999,
+      "municipalGuarantees": 0.11,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 15.563349175,
+      "municipalCommercialDebt": 7.942,
+      "combinedCommercialDebt": 31.642,
+      "combinedDebt": 83.660007175
     },
     {
       "id": "60",
@@ -628,7 +1132,16 @@
       "budgetLoans": 44.774154,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 44.774154
+      "totalDebt": 44.774154,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 8.938832199999998,
+      "municipalBudgetLoans": 7.770602308470001,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 16.70943450847,
+      "municipalCommercialDebt": 8.938832199999998,
+      "combinedCommercialDebt": 8.938832199999998,
+      "combinedDebt": 61.48358850847001
     },
     {
       "id": "68",
@@ -639,7 +1152,16 @@
       "budgetLoans": 16.184388,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 45.575823
+      "totalDebt": 45.575823,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.4426786000000003,
+      "municipalBudgetLoans": 0.53609568964,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.97877428964,
+      "municipalCommercialDebt": 3.4426786000000003,
+      "combinedCommercialDebt": 32.8341136,
+      "combinedDebt": 49.55459728964
     },
     {
       "id": "43",
@@ -650,7 +1172,16 @@
       "budgetLoans": 11.689032,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 11.689032
+      "totalDebt": 11.689032,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.616,
+      "municipalBudgetLoans": 1.0744,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.6904,
+      "municipalCommercialDebt": 0.616,
+      "combinedCommercialDebt": 0.616,
+      "combinedDebt": 13.379432
     },
     {
       "id": "62",
@@ -661,7 +1192,16 @@
       "budgetLoans": 65.342718,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 76.857153
+      "totalDebt": 76.857153,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 2.37207977081,
+      "municipalGuarantees": 0.8722673915599999,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.24434716237,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 11.514434,
+      "combinedDebt": 80.10150016237
     },
     {
       "id": "67",
@@ -672,7 +1212,16 @@
       "budgetLoans": 10.186652,
       "guarantees": 0.649243,
       "otherDebt": 0.0,
-      "totalDebt": 50.335895
+      "totalDebt": 50.335895,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 39.5,
+      "combinedDebt": 50.335895
     },
     {
       "id": "69",
@@ -683,7 +1232,16 @@
       "budgetLoans": 88.751494,
       "guarantees": 0.826645,
       "otherDebt": 0.0,
-      "totalDebt": 109.608147
+      "totalDebt": 109.608147,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.055,
+      "municipalBudgetLoans": 1.858957236,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.9139572360000001,
+      "municipalCommercialDebt": 0.055,
+      "combinedCommercialDebt": 20.085008,
+      "combinedDebt": 111.522104236
     },
     {
       "id": "87",
@@ -694,7 +1252,16 @@
       "budgetLoans": 11.978196,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 58.978197
+      "totalDebt": 58.978197,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.135,
+      "municipalBudgetLoans": 3.5923130728,
+      "municipalGuarantees": 0.07485886959,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 3.8021719423900007,
+      "municipalCommercialDebt": 0.135,
+      "combinedCommercialDebt": 47.135,
+      "combinedDebt": 62.780368942390005
     },
     {
       "id": "90",
@@ -705,7 +1272,16 @@
       "budgetLoans": 3.888184,
       "guarantees": 7.317232,
       "otherDebt": 0.0,
-      "totalDebt": 47.205416
+      "totalDebt": 47.205416,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 36.0,
+      "combinedDebt": 47.205416
     },
     {
       "id": "77",
@@ -716,7 +1292,16 @@
       "budgetLoans": 2.632885,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 2.632885
+      "totalDebt": 2.632885,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.319,
+      "municipalBudgetLoans": 0.3308016,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.6498016,
+      "municipalCommercialDebt": 0.319,
+      "combinedCommercialDebt": 0.319,
+      "combinedDebt": 3.2826866
     },
     {
       "id": "12",
@@ -727,7 +1312,16 @@
       "budgetLoans": 2.659601,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 7.359601
+      "totalDebt": 7.359601,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.09,
+      "municipalBudgetLoans": 0.3007449562,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.3907449562,
+      "municipalCommercialDebt": 0.09,
+      "combinedCommercialDebt": 4.79,
+      "combinedDebt": 7.750345956199999
     },
     {
       "id": "80",
@@ -738,7 +1332,16 @@
       "budgetLoans": 16.575718,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 27.375718
+      "totalDebt": 27.375718,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.8845,
+      "municipalBudgetLoans": 0.39504311148000004,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.2795431114799998,
+      "municipalCommercialDebt": 1.8845,
+      "combinedCommercialDebt": 12.6845,
+      "combinedDebt": 29.655261111479998
     },
     {
       "id": "17",
@@ -749,7 +1352,16 @@
       "budgetLoans": 14.586711,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 14.586711
+      "totalDebt": 14.586711,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.68398,
+      "municipalGuarantees": 9.8898e-05,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.684078898,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 15.270789897999999
     },
     {
       "id": "19",
@@ -760,7 +1372,16 @@
       "budgetLoans": 67.5135,
       "guarantees": 0.0,
       "otherDebt": 0.003235,
-      "totalDebt": 67.516737
+      "totalDebt": 67.516737,
+      "municipalBonds": 2.5e-07,
+      "municipalBankLoans": 9.6805,
+      "municipalBudgetLoans": 3.5990416,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 13.27954185,
+      "municipalCommercialDebt": 9.68050025,
+      "combinedCommercialDebt": 9.68050225,
+      "combinedDebt": 80.79627885000001
     },
     {
       "id": "34",
@@ -771,7 +1392,16 @@
       "budgetLoans": 27.832714,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 82.132714
+      "totalDebt": 82.132714,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 3.908992,
+      "municipalBudgetLoans": 1.96038205184,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 5.8693740518399995,
+      "municipalCommercialDebt": 3.908992,
+      "combinedCommercialDebt": 58.208991999999995,
+      "combinedDebt": 88.00208805184
     },
     {
       "id": "39",
@@ -782,7 +1412,16 @@
       "budgetLoans": 49.932916,
       "guarantees": 0.0,
       "otherDebt": 4.488125,
-      "totalDebt": 118.521041
+      "totalDebt": 118.521041,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 5.2144,
+      "municipalBudgetLoans": 9.71139968311,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 14.92579968311,
+      "municipalCommercialDebt": 5.2144,
+      "combinedCommercialDebt": 69.31439999999999,
+      "combinedDebt": 133.44684068311
     },
     {
       "id": "51",
@@ -793,7 +1432,16 @@
       "budgetLoans": 37.997552,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 122.635801
+      "totalDebt": 122.635801,
+      "municipalBonds": 2.55,
+      "municipalBankLoans": 14.091757,
+      "municipalBudgetLoans": 2.903043,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 19.5448,
+      "municipalCommercialDebt": 16.641757,
+      "combinedCommercialDebt": 101.280006,
+      "combinedDebt": 142.180601
     },
     {
       "id": "52",
@@ -804,7 +1452,16 @@
       "budgetLoans": 35.919013,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 65.019013
+      "totalDebt": 65.019013,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 7.5910565426400005,
+      "municipalBudgetLoans": 2.9752793333299996,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 10.566335875970001,
+      "municipalCommercialDebt": 7.5910565426400005,
+      "combinedCommercialDebt": 36.69105654264,
+      "combinedDebt": 75.58534887597
     },
     {
       "id": "65",
@@ -815,7 +1472,16 @@
       "budgetLoans": 28.37327,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 58.59605
+      "totalDebt": 58.59605,
+      "municipalBonds": 1.2,
+      "municipalBankLoans": 5.98324542533,
+      "municipalBudgetLoans": 1.41497001567,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 8.598215440999999,
+      "municipalCommercialDebt": 7.18324542533,
+      "combinedCommercialDebt": 37.40602542533,
+      "combinedDebt": 67.194265441
     },
     {
       "id": "02",
@@ -826,7 +1492,16 @@
       "budgetLoans": 19.650494,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 38.60638
+      "totalDebt": 38.60638,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 2.3877403,
+      "municipalBudgetLoans": 3.46552496833,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 5.85326526833,
+      "municipalCommercialDebt": 2.3877403,
+      "combinedCommercialDebt": 21.3436263,
+      "combinedDebt": 44.45964526833
     },
     {
       "id": "16",
@@ -837,7 +1512,16 @@
       "budgetLoans": 20.370898,
       "guarantees": 13.12767,
       "otherDebt": 0.0,
-      "totalDebt": 58.998567
+      "totalDebt": 58.998567,
+      "municipalBonds": 0.03,
+      "municipalBankLoans": 2.97211496,
+      "municipalBudgetLoans": 0.8798876508,
+      "municipalGuarantees": 0.84588653084,
+      "municipalOtherDebt": 0.0032187241099999996,
+      "municipalDebt": 4.73110786575,
+      "municipalCommercialDebt": 3.0021149599999997,
+      "combinedCommercialDebt": 28.50211496,
+      "combinedDebt": 63.72967486575
     },
     {
       "id": "91",
@@ -848,7 +1532,16 @@
       "budgetLoans": 28.681564,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 28.681564
+      "totalDebt": 28.681564,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 1.7015452065699999,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.7015452065699999,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 30.38310920657
     },
     {
       "id": "38",
@@ -859,7 +1552,16 @@
       "budgetLoans": 6.25333,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 18.13333
+      "totalDebt": 18.13333,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.022,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.022,
+      "municipalCommercialDebt": 0.022,
+      "combinedCommercialDebt": 11.902000000000001,
+      "combinedDebt": 18.15533
     },
     {
       "id": "20",
@@ -870,7 +1572,16 @@
       "budgetLoans": 18.834394,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 20.834394
+      "totalDebt": 20.834394,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 1.42108745262,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.42108745262,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 2.0,
+      "combinedDebt": 22.25548145262
     },
     {
       "id": "22",
@@ -881,7 +1592,16 @@
       "budgetLoans": 50.587096,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 50.587096
+      "totalDebt": 50.587096,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.4,
+      "municipalBudgetLoans": 5.506691654040001,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 5.90669165404,
+      "municipalCommercialDebt": 0.4,
+      "combinedCommercialDebt": 0.4,
+      "combinedDebt": 56.493787654040005
     },
     {
       "id": "23",
@@ -892,7 +1612,16 @@
       "budgetLoans": 25.913067,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 33.944165
+      "totalDebt": 33.944165,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.88886466787,
+      "municipalBudgetLoans": 0.5195348562,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 1.40839952407,
+      "municipalCommercialDebt": 0.88886466787,
+      "combinedCommercialDebt": 8.91996266787,
+      "combinedDebt": 35.35256452407
     },
     {
       "id": "47",
@@ -903,7 +1632,16 @@
       "budgetLoans": 15.177434,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 17.727434
+      "totalDebt": 17.727434,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 1.525,
+      "municipalBudgetLoans": 1.0828466666700003,
+      "municipalGuarantees": 0.215,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 2.8228466666700003,
+      "municipalCommercialDebt": 1.525,
+      "combinedCommercialDebt": 4.074999999999999,
+      "combinedDebt": 20.550280666669998
     },
     {
       "id": "61",
@@ -914,7 +1652,16 @@
       "budgetLoans": 3.026074,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 20.026074
+      "totalDebt": 20.026074,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 9.43,
+      "municipalBudgetLoans": 0.52566271393,
+      "municipalGuarantees": 0.21419972024,
+      "municipalOtherDebt": 0.00690111118,
+      "municipalDebt": 10.176763545350001,
+      "municipalCommercialDebt": 9.43,
+      "combinedCommercialDebt": 26.43,
+      "combinedDebt": 30.20283754535
     },
     {
       "id": "78",
@@ -925,7 +1672,16 @@
       "budgetLoans": 6.280671,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 7.280671
+      "totalDebt": 7.280671,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.5657915312299999,
+      "municipalBudgetLoans": 0.42495822116000004,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.9907497523900002,
+      "municipalCommercialDebt": 0.5657915312299999,
+      "combinedCommercialDebt": 1.56579153123,
+      "combinedDebt": 8.27142075239
     },
     {
       "id": "88",
@@ -936,7 +1692,16 @@
       "budgetLoans": 7.644383,
       "guarantees": 0.05697,
       "otherDebt": 0.0,
-      "totalDebt": 7.841353
+      "totalDebt": 7.841353,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.09,
+      "municipalGuarantees": 0.07769231,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.16769231,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.14,
+      "combinedDebt": 8.00904531
     },
     {
       "id": "82",
@@ -947,7 +1712,16 @@
       "budgetLoans": 12.800516,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 12.800516
+      "totalDebt": 12.800516,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 12.800516
     },
     {
       "id": "83",
@@ -958,7 +1732,16 @@
       "budgetLoans": 8.92345,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 8.92345
+      "totalDebt": 8.92345,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 8.92345
     },
     {
       "id": "70",
@@ -969,7 +1752,16 @@
       "budgetLoans": 4.522981,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 4.522981
+      "totalDebt": 4.522981,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 4.522981
     },
     {
       "id": "97",
@@ -980,7 +1772,16 @@
       "budgetLoans": 1.984542,
       "guarantees": 0.0,
       "otherDebt": 0.0,
-      "totalDebt": 1.984542
+      "totalDebt": 1.984542,
+      "municipalBonds": 0.0,
+      "municipalBankLoans": 0.0,
+      "municipalBudgetLoans": 0.0,
+      "municipalGuarantees": 0.0,
+      "municipalOtherDebt": 0.0,
+      "municipalDebt": 0.0,
+      "municipalCommercialDebt": 0.0,
+      "combinedCommercialDebt": 0.0,
+      "combinedDebt": 1.984542
     }
   ]
 }
